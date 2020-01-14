@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/node_modules/react-native/Libraries/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec-generated.mm \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Target\ Support\ Files/FBReactNativeSpec/FBReactNativeSpec-prefix.pch \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/node_modules/react-native/Libraries/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/RCTRequired/RCTRequired/RCTRequired.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/RCTTypeSafety/RCTTypeSafety/RCTConvertHelpers.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Folly/folly/Optional.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Folly/folly/Portability.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Folly/folly/CPortability.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Folly/folly/Traits.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Folly/folly/Utility.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/RCTTypeSafety/RCTTypeSafety/RCTTypedModuleConstants.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTCxxConvert.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTManagedPointer.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/ReactCommon/ReactCommon/RCTTurboModule.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTModuleMethod.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTBridgeMethod.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTNullability.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/ReactCommon/ReactCommon/JSCallInvoker.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/ReactCommon/ReactCommon/TurboModule.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-jsi/jsi/jsi.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-jsi/jsi/jsi-inl.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-cxxreact/cxxreact/MessageQueueThread.h

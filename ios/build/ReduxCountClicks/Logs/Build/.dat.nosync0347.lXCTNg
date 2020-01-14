@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3554E1E7-0367-49A6-A97B-FA0AF76239EA</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3554E1E7-0367-49A6-A97B-FA0AF76239EA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ReduxCountClicks project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ReduxCountClicks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace ReduxCountClicks with scheme ReduxCountClicks and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>600315177.03211105</real>
+			<key>timeStoppedRecording</key>
+			<real>600315178.71114004</real>
+			<key>title</key>
+			<string>Building workspace ReduxCountClicks with scheme ReduxCountClicks and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>3554E1E7-0367-49A6-A97B-FA0AF76239EA</string>
+		</dict>
+		<key>5E5634D5-F197-44D2-9A14-F946A333D621</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5E5634D5-F197-44D2-9A14-F946A333D621.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ReduxCountClicks project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ReduxCountClicks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace ReduxCountClicks with scheme ReduxCountClicks and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>600315091.78864396</real>
+			<key>timeStoppedRecording</key>
+			<real>600315095.43429196</real>
+			<key>title</key>
+			<string>Building workspace ReduxCountClicks with scheme ReduxCountClicks and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>5E5634D5-F197-44D2-9A14-F946A333D621</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

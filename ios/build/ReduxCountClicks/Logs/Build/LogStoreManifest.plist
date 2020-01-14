@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0C14A399-3F89-4F53-8357-573B17285C07</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0C14A399-3F89-4F53-8357-573B17285C07.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ReduxCountClicks project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ReduxCountClicks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace ReduxCountClicks with scheme ReduxCountClicks and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>600666057.15765095</real>
+			<key>timeStoppedRecording</key>
+			<real>600666063.36946106</real>
+			<key>title</key>
+			<string>Building workspace ReduxCountClicks with scheme ReduxCountClicks and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>0C14A399-3F89-4F53-8357-573B17285C07</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

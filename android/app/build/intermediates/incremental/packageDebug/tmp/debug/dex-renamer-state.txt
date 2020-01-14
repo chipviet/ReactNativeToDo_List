@@ -1,0 +1,4 @@
+#Mon Nov 11 23:15:03 EST 2019
+base.0=/home/sangpham/ReactNative/ReduxCountClicks/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+path.0=classes.dex

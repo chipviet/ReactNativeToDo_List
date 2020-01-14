@@ -1,0 +1,223 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /home/sangpham/ReactNative/ReduxCountClicks/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.3] /home/sangpham/.gradle/caches/transforms-2/files-2.1/eab7a8ed7dce4dcea70721c19c3a92b1/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /home/sangpham/.gradle/caches/transforms-2/files-2.1/6f5f4ae44e612ec10969302d03ea8480/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/sangpham/.gradle/caches/transforms-2/files-2.1/4eea3963ab39abfd1c817ae077727758/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/62d9b97b3a84e07dc4700912fb6c5a19/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/68bc4c74224196da6dc381a7327c8706/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/9cbfe50af8a0c259c40fb31832fba6e3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/13ceefd358da99cabdcb68d4f1fd6278/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/857168acdf6719772a786bb1df0560b1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/062d4966c6b4b822739738ca372c2184/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/1228203002997b023a5920e1194b0b82/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/f95010162d85c23dd5aba57bc1adfe8f/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/02d04ca9187c56b983aac4f12181c50e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/a80a2e7f9dc71b58fe0183cdf8b6881a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/c9efbf356f2db739745527213245c503/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/e8aefae2ccc94a49e7adaa2d34d10491/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/sangpham/.gradle/caches/transforms-2/files-2.1/fe56fc09607ff172abb4995d4f48a15d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/23689382b8a9f1a3dc7c1dae72c3e6d2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/8728216c377700dcc65ac9efc2cf9011/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/a1e4b87161b4b6734138d2acb1efe20d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/48e826b4f6ea34b7fd70c63142222206/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/377b283dc113d33d42cab00ccdc0c0cb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/1102287afed4178746271029577a85d1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/b48ec9b202372ff962edf1a01c22e621/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/39175436cd6ad06a3a863c1317f0af14/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/sangpham/.gradle/caches/transforms-2/files-2.1/c90a4f14562a0906652636575dc4e61b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/2344476224f6891c5f60d9c4e52fc820/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/5ffa4f6d0a666d80d5352a632f7fc6b7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/1ce96baeed094f8fd0c692b5aab64fed/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/8d74d209bbe3bad38e871df0f5e53b13/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/7c86f86af0a7e93d7a314dcd0e992171/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/8a58d9475ed9a1a0dbca0567d68dc2a8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/d0cc2f0990ff6e3fa37ed3f8a10d9493/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/720711ea87b518014935cd62a14736fc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/9074b48d0ac5c483dd6aee212abffc66/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/75ff6ec0b25b69adc79c6afef5cc6a9d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/6755b22a0f75457d9dcd07c0b6957387/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/e58f31c2992e6954ddc605af77314b45/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:2:3-33
+		INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:2:3-33
+		INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [com.facebook.react:react-native:0.61.3] /home/sangpham/.gradle/caches/transforms-2/files-2.1/eab7a8ed7dce4dcea70721c19c3a92b1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.3] /home/sangpham/.gradle/caches/transforms-2/files-2.1/eab7a8ed7dce4dcea70721c19c3a92b1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/f95010162d85c23dd5aba57bc1adfe8f/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/f95010162d85c23dd5aba57bc1adfe8f/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.1] /home/sangpham/.gradle/caches/transforms-2/files-2.1/c90a4f14562a0906652636575dc4e61b/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/sangpham/.gradle/caches/transforms-2/files-2.1/c90a4f14562a0906652636575dc4e61b/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/2344476224f6891c5f60d9c4e52fc820/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/2344476224f6891c5f60d9c4e52fc820/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /home/sangpham/.gradle/caches/transforms-2/files-2.1/c90a4f14562a0906652636575dc4e61b/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.reduxcountclicks.MainActivity
+ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /home/sangpham/ReactNative/ReduxCountClicks/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/sangpham/ReactNative/ReduxCountClicks/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.3] /home/sangpham/.gradle/caches/transforms-2/files-2.1/eab7a8ed7dce4dcea70721c19c3a92b1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.3] /home/sangpham/.gradle/caches/transforms-2/files-2.1/eab7a8ed7dce4dcea70721c19c3a92b1/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/sangpham/.gradle/caches/transforms-2/files-2.1/6f5f4ae44e612ec10969302d03ea8480/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/sangpham/.gradle/caches/transforms-2/files-2.1/6f5f4ae44e612ec10969302d03ea8480/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/sangpham/.gradle/caches/transforms-2/files-2.1/4eea3963ab39abfd1c817ae077727758/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/sangpham/.gradle/caches/transforms-2/files-2.1/4eea3963ab39abfd1c817ae077727758/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/62d9b97b3a84e07dc4700912fb6c5a19/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/62d9b97b3a84e07dc4700912fb6c5a19/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/68bc4c74224196da6dc381a7327c8706/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/68bc4c74224196da6dc381a7327c8706/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/9cbfe50af8a0c259c40fb31832fba6e3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/9cbfe50af8a0c259c40fb31832fba6e3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/13ceefd358da99cabdcb68d4f1fd6278/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/13ceefd358da99cabdcb68d4f1fd6278/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/857168acdf6719772a786bb1df0560b1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/857168acdf6719772a786bb1df0560b1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/062d4966c6b4b822739738ca372c2184/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/062d4966c6b4b822739738ca372c2184/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/1228203002997b023a5920e1194b0b82/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/1228203002997b023a5920e1194b0b82/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/f95010162d85c23dd5aba57bc1adfe8f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/f95010162d85c23dd5aba57bc1adfe8f/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/02d04ca9187c56b983aac4f12181c50e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/02d04ca9187c56b983aac4f12181c50e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/a80a2e7f9dc71b58fe0183cdf8b6881a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/a80a2e7f9dc71b58fe0183cdf8b6881a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/c9efbf356f2db739745527213245c503/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/c9efbf356f2db739745527213245c503/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/e8aefae2ccc94a49e7adaa2d34d10491/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/e8aefae2ccc94a49e7adaa2d34d10491/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/sangpham/.gradle/caches/transforms-2/files-2.1/fe56fc09607ff172abb4995d4f48a15d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/sangpham/.gradle/caches/transforms-2/files-2.1/fe56fc09607ff172abb4995d4f48a15d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/23689382b8a9f1a3dc7c1dae72c3e6d2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/23689382b8a9f1a3dc7c1dae72c3e6d2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/8728216c377700dcc65ac9efc2cf9011/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/8728216c377700dcc65ac9efc2cf9011/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/a1e4b87161b4b6734138d2acb1efe20d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/a1e4b87161b4b6734138d2acb1efe20d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/48e826b4f6ea34b7fd70c63142222206/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/48e826b4f6ea34b7fd70c63142222206/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/377b283dc113d33d42cab00ccdc0c0cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/377b283dc113d33d42cab00ccdc0c0cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/1102287afed4178746271029577a85d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/1102287afed4178746271029577a85d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/b48ec9b202372ff962edf1a01c22e621/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/b48ec9b202372ff962edf1a01c22e621/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/39175436cd6ad06a3a863c1317f0af14/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/39175436cd6ad06a3a863c1317f0af14/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/sangpham/.gradle/caches/transforms-2/files-2.1/c90a4f14562a0906652636575dc4e61b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/sangpham/.gradle/caches/transforms-2/files-2.1/c90a4f14562a0906652636575dc4e61b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/2344476224f6891c5f60d9c4e52fc820/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/2344476224f6891c5f60d9c4e52fc820/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/5ffa4f6d0a666d80d5352a632f7fc6b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/5ffa4f6d0a666d80d5352a632f7fc6b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/1ce96baeed094f8fd0c692b5aab64fed/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/1ce96baeed094f8fd0c692b5aab64fed/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/8d74d209bbe3bad38e871df0f5e53b13/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/8d74d209bbe3bad38e871df0f5e53b13/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/7c86f86af0a7e93d7a314dcd0e992171/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/7c86f86af0a7e93d7a314dcd0e992171/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/8a58d9475ed9a1a0dbca0567d68dc2a8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/8a58d9475ed9a1a0dbca0567d68dc2a8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/d0cc2f0990ff6e3fa37ed3f8a10d9493/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/d0cc2f0990ff6e3fa37ed3f8a10d9493/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/720711ea87b518014935cd62a14736fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/720711ea87b518014935cd62a14736fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/9074b48d0ac5c483dd6aee212abffc66/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/9074b48d0ac5c483dd6aee212abffc66/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/75ff6ec0b25b69adc79c6afef5cc6a9d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/75ff6ec0b25b69adc79c6afef5cc6a9d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/6755b22a0f75457d9dcd07c0b6957387/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/6755b22a0f75457d9dcd07c0b6957387/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/e58f31c2992e6954ddc605af77314b45/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/sangpham/.gradle/caches/transforms-2/files-2.1/e58f31c2992e6954ddc605af77314b45/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/sangpham/ReactNative/ReduxCountClicks/android/app/src/debug/AndroidManifest.xml:5:22-75

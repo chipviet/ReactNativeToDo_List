@@ -1,0 +1,8 @@
+dependencies: \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/node_modules/react-native/Libraries/TypeSafety/RCTTypedModuleConstants.mm \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Target\ Support\ Files/RCTTypeSafety/RCTTypeSafety-prefix.pch \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/node_modules/react-native/Libraries/TypeSafety/RCTTypedModuleConstants.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/sangpham/Documents/ReactNativeToDo_List-master/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h
