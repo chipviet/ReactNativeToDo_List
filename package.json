@@ -12,24 +12,32 @@
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.6",
     "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dateformat": "^3.0.3",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
     "lodash.filter": "^4.6.0",
     "lodash.includes": "^4.3.0",
     "moment": "^2.24.0",
     "mongodb": "^3.4.1",
-    "mongoose": "^5.8.4",
+    "mongoose": "^5.8.11",
     "react": "16.9.0",
     "react-native": "0.61.3",
+    "react-native-easy-toast": "^1.2.0",
+    "react-native-elements": "^1.2.7",
     "react-native-gesture-handler": "^1.5.3",
     "react-native-reanimated": "^1.4.0",
     "react-native-safe-area-context": "^0.6.2",
     "react-native-screens": "^2.0.0-alpha.23",
+    "react-native-simple-toast": "^1.0.0",
     "react-native-swipeout": "^2.3.6",
+    "react-native-tiny-toast": "^1.0.6",
+    "react-native-uuid": "^1.4.9",
     "react-native-vector-icons": "^6.6.0",
     "react-navigation": "^4.0.10",
     "react-navigation-stack": "^2.0.15",
@@ -50,9 +58,17 @@
     "jest": "24.9.0",
     "metro-react-native-babel-preset": "0.51.1",
     "prettier": "^1.19.1",
-    "react-test-renderer": "16.9.0"
+    "react-native-debugger-open": "^0.3.24",
+    "react-test-renderer": "16.9.0",
+    "remote-redux-devtools": "^0.5.16",
+    "remotedev-rn-debugger": "^0.8.4"
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts/"
+    ]
   }
 }

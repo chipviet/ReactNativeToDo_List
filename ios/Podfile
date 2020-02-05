@@ -38,6 +38,8 @@ target 'ReduxCountClicks' do
 
   pod 'RNCMaskedView', :path => '../node_modules/@react-native-community/masked-view'
 
+  pod 'react-native-simple-toast', :path => '../node_modules/react-native-simple-toast'
+
   target 'ReduxCountClicksTests' do
     inherit! :search_paths
     # Pods for testing

@@ -6,7 +6,8 @@ import {connect} from 'react-redux';
 import Icon from 'react-native-vector-icons/EvilIcons';
 import {searchWork} from '../redux/actions';
 import {bindActionCreators} from 'redux';
-
+import {createAppContainer} from 'react-navigation';
+import {createStackNavigator} from 'react-navigation-stack';
 
 class Header extends Component {
   handleSearch = () => {
@@ -26,8 +27,14 @@ class Header extends Component {
               paddingTop: 20,
             }}
           >
-            
+            <TouchableOpacity
+              onPress={() =>
+                this.props.navigation.navigate('IntroductionScreen')
+              }
+            >
               <Text style={styles.textTitle}> Reminders</Text>
+            </TouchableOpacity>
+
             <Text style={styles.textCount}>{rWorks.isCounter}</Text>
           </View>
           <View style={{flexDirection: 'row-reverse', paddingLeft: 10}}>
@@ -53,9 +60,6 @@ class Header extends Component {
     );
   }
 }
-
-
-
 
 const styles = StyleSheet.create({
   container: {

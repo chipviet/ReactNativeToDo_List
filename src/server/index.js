@@ -3,12 +3,16 @@ const router = express();
 var cors = require('cors');
 const mongoose = require('mongoose');
 const port = 3500;
-var moment = require('moment')
+var moment = require('moment');
+const user = require('./user/user');
+const bodyParser = require('body-parser');
 
 router.use(cors());
 router.use(express.urlencoded());
 
 router.use(express.json());
+router.use(bodyParser.json());
+router.use('/user', user);
 
 mongoose.set('useFindAndModify', false);
 mongoose.connect('mongodb://localhost:27017/todolist', {
@@ -19,47 +23,59 @@ mongoose.connect('mongodb://localhost:27017/todolist', {
 const Schema = mongoose.Schema;
 
 var MyModel = mongoose.model(
-  'Works_tests',
-  new Schema({title: {type: String, text: true}, isCompleted: Boolean, date: Date}),
+  'Works_Dailies',
+  new Schema({
+    userId: String,
+    title: {
+      type: String,
+      text: true,
+    },
+    isCompleted: Boolean,
+    date: Date,
+  })
 );
 
 const courses = [];
 
-router.get('/:page/:isSearching/:dataSearching', async (req, res) => {
+router.get('/:userId/:page/:isSearching/:dataSearching', async (req, res) => {
   try {
     var getToken = false;
     var perPage = 10;
+    const uid = req.params.userId;
     const pages = req.params.page;
-    const isSearching =req.params.isSearching;
-    if(isSearching == 'true'){
-      getToken = true
+    const isSearching = req.params.isSearching;
+    if (isSearching == 'true') {
+      getToken = true;
+    } else {
+      getToken = false;
     }
-    else {
-      getToken = false
-    }
-    console.log('isSearching',isSearching, 'getToken:',getToken);
-    const dataSearching = req.params.dataSearching
-    console.log('dataSearching',dataSearching);
-    const fetchData = await MyModel.find({ "title": /.*.*/});
-    const total_page = Math.floor(Object.keys(fetchData).length / perPage) + 1
-    console.log('Skip value:',(Math.abs(perPage * pages) - perPage));
-    const data = await MyModel.find({ 'title': !getToken ? /.*.*/ : {'$regex': `${dataSearching}`}})
-      .skip((perPage * pages) - perPage)
-      .limit(perPage);
-    res.send({data,total_page });
+    const dataSearching = req.params.dataSearching;
+    const fetchData = await MyModel.find({userId: uid});
+    console.log('fetchdata:', fetchData);
+    const resultSearching = fetchData.find(
+      item => item.title !== `${dataSearching}`
+    );
+    console.log('resultSearching', resultSearching);
+    const total_page = Math.floor(Object.keys(fetchData).length / perPage) + 1;
+    console.log('Skip value:', Math.abs(perPage * pages) - perPage);
+    // const data = await MyModel.find({
+    //   title: !getToken ? /.*.*/ : {$regex: `${dataSearching}`},
+    // })
+    // .skip(perPage * pages - perPage)
+    // .limit(perPage);
+    const data = !getToken ? fetchData : resultSearching
+    res.send({data, total_page});
   } catch (error) {
     console.log('error', error);
   }
 });
 
 router.post('/', (req, res) => {
-  console.log('req', req.body);
-  console.log("time:",moment().valueOf());
   const course = {
-    uid: courses.length + 1,
+    userId: req.body.userId,
     title: req.body.title,
     isCompleted: req.body.isCompleted,
-    date: moment().valueOf()
+    date: moment().valueOf(),
   };
 
   MyModel.create(course)
@@ -76,8 +92,9 @@ router.post('/', (req, res) => {
   courses.push(course);
 });
 
+//register to DB
+router.post('/register');
 router.delete('/', (req, res) => {
-  
   MyModel.deleteOne({_id: req.query.id})
     .then(() => {
       res.status(200);
@@ -96,9 +113,6 @@ router.delete('/', (req, res) => {
 });
 
 router.put('/:_id', (req, res) => {
-  console.log(req.params._id);
-  console.log(req);
-  console.log('isComplete',req.body.params.isCompleted);
   MyModel.findOneAndUpdate(
     {_id: req.params._id},
     {
@@ -108,17 +122,17 @@ router.put('/:_id', (req, res) => {
     },
     {
       new: true,
-    },
+    }
   )
     .then(() => {
       res.status(200);
-      res.send({ message: 'Successful change' });
-      console.log('successful change')
+      res.send({message: 'Successful change'});
+      console.log('successful change');
     })
     .catch(err => {
       res.status(404);
-      res.send(err)
-  })
+      res.send(err);
+    });
 });
 
 router.listen(port, () => console.log(`Listerning on port ${port}`));

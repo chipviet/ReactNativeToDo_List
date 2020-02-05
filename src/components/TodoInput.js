@@ -1,5 +1,14 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, TextInput, FlatList} from 'react-native';
+import {
+  Text,
+  View,
+  StyleSheet,
+  TextInput,
+  FlatList,
+  SafeAreaView,
+  Button,
+  TouchableOpacity,
+} from 'react-native';
 
 import Icon from 'react-native-vector-icons/Fontisto';
 import Swipeout from 'react-native-swipeout';
@@ -15,18 +24,50 @@ import {
   deleteDataWork,
   completeDataWork,
   searchingWork,
+  searchWork,
 } from '../redux/actions';
 import Filter from './Filter';
 import {bindActionCreators} from 'redux';
 import {getVisibleWorks} from '../selectors/workSelectors';
 import axios from 'axios';
-import moment from 'moment'
+import moment from 'moment';
 
 class TodoInput extends Component {
+  static navigationOptions = ({navigation}) => {
+    return {
+      title : 'Reminders',
+      headerStyle: {
+        backgroundColor: '#213F84',
+      },
+      headerTintColor: '#ffffff',
+      headerTitleStyle: {
+        fontWeight: 'bold',
+        fontSize: 25
+      },
+
+      headerRight: () => (
+        <Icon
+          name="search"
+          onPress={navigation.getParam('handleSearch')}
+          size={25}
+          color="#ffffff"
+        ></Icon>
+      ),
+      headerLeft: () => (
+        <Button
+          onPress={() => navigation.navigate('LoginScreen')}
+          title="Back"
+          color="#fff"
+        />
+      ),
+    };
+  };
+
   constructor(props) {
     super(props);
     this.state = {
       id: 0,
+      uid: 0,
       title: '',
       isCompleted: false,
       works: '',
@@ -34,7 +75,9 @@ class TodoInput extends Component {
   }
 
   componentDidMount() {
-    this.props.fetchDataWork(this.props.rWorks.page);
+    console.log("AAAA",this.props.rWorks.user.id);
+    this.props.fetchDataWork(this.props.rWorks.page,this.props.rWorks.user.id);
+    this.props.navigation.setParams({handleSearch: this.handleSearch});
   }
 
   handleGetMoreItem = () => {
@@ -47,6 +90,7 @@ class TodoInput extends Component {
 
   handlePost = () => {
     const {id, title, isCompleted} = this.state;
+    const uid = this.props.fetchUser
     this.props.postDataWork(id, title, isCompleted);
     this.setState({
       title: '',
@@ -67,6 +111,11 @@ class TodoInput extends Component {
     this.setState({
       title: '',
     });
+  };
+
+  handleSearch = () => {
+    console.log('Vo day');
+    this.props.searchWork();
   };
 
   renderItem = ({item}) => {
@@ -101,7 +150,7 @@ class TodoInput extends Component {
         ]}
       >
         <View style={styles.separator}></View>
-        <View style ={styles.listView}>
+        <View style={styles.listView}>
           <View style={styles.showItem}>
             <Icon
               style={styles.iconComplete}
@@ -112,8 +161,10 @@ class TodoInput extends Component {
             ></Icon>
             <Text style={styles.txtWorks}>{item.title}</Text>
           </View>
-          <View style ={ styles.showTime}>
-            <Text style={styles.txtTime}>{moment(item.date).format('HH:mm')}</Text>
+          <View style={styles.showTime}>
+            <Text style={styles.txtTime}>
+              {moment(item.date).format('HH:mm')}
+            </Text>
           </View>
         </View>
       </Swipeout>
@@ -122,9 +173,9 @@ class TodoInput extends Component {
 
   render() {
     const {rWorks} = this.props;
-    console.log('rWorks',rWorks);
+    console.log('rWorks',rWorks.user.id);
     return (
-      <View style={{flex: 6}}>
+      <SafeAreaView style={{flex: 6}}>
         <View style={{flex: 0.13, backgroundColor: '#213F84'}}>
           <View style={styles.textInputComponent}>
             {rWorks.isSearching ? (
@@ -161,7 +212,7 @@ class TodoInput extends Component {
           ></FlatList>
         </View>
         <Filter></Filter>
-      </View>
+      </SafeAreaView>
     );
   }
 }
@@ -203,14 +254,13 @@ const styles = StyleSheet.create({
   listView: {
     backgroundColor: '#ffffff',
     flexDirection: 'row',
-    justifyContent:'space-between'
+    justifyContent: 'space-between',
   },
   showItem: {
     backgroundColor: '#ffffff',
     justifyContent: 'flex-start',
     flexDirection: 'row',
-  }
-  ,
+  },
   showTime: {
     backgroundColor: '#ffffff',
     //justifyContent:'flex-end',
@@ -231,6 +281,12 @@ const styles = StyleSheet.create({
     borderBottomColor: '#737373',
     borderBottomWidth: StyleSheet.hairlineWidth,
   },
+  textTitle: {
+    fontSize: 37,
+    color: '#ffffff',
+    paddingLeft: 20,
+    paddingTop: 50,
+  },
   txtWorks: {
     height: 40,
     backgroundColor: '#ffffff',
@@ -239,11 +295,13 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     fontSize: 15,
   },
+  headerStyle: {
+    backgroundColor: '#213F84',
+  },
 });
 
 export default connect(
   state => (
-    console.log('state', state),
     {
       rWorks: state.works.works,
       rVisibitilityWorks: getVisibleWorks(state),
@@ -261,6 +319,8 @@ export default connect(
         deleteDataWork,
         completeDataWork,
         searchingWork,
+        searchWork,
+
       },
       dispatch
     )

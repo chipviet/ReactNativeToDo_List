@@ -5,16 +5,23 @@ import {Provider} from 'react-redux';
 
 import TodoInput from './src/components/TodoInput';
 import Header from './src/components/Header';
+import Login from './src/components/Login';
+import AppContainer from './navigator';
 
-import store from './src/redux/store';
+import configureStore from './src/redux/store';
+import {createAppContainer} from 'react-navigation';
+import {createStackNavigator} from 'react-navigation-stack';
+
+const store = configureStore()
 
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
         <View style={styles.container}>
-          <Header></Header>
-          <TodoInput></TodoInput>
+        <AppContainer></AppContainer>
+        {/* <Header></Header>
+        <TodoInput></TodoInput> */}
         </View>
       </Provider>
     );
@@ -28,3 +35,7 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
+
+
+

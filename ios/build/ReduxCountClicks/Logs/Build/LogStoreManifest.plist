@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0C14A399-3F89-4F53-8357-573B17285C07</key>
+		<key>579ABE8A-DD27-42BA-8703-9EC2679EA7B5</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,13 +15,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0C14A399-3F89-4F53-8357-573B17285C07.xcactivitylog</string>
+			<string>579ABE8A-DD27-42BA-8703-9EC2679EA7B5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>ReduxCountClicks project</string>
@@ -32,13 +32,47 @@
 			<key>signature</key>
 			<string>Building workspace ReduxCountClicks with scheme ReduxCountClicks and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>600666057.15765095</real>
+			<real>602578048.32789695</real>
 			<key>timeStoppedRecording</key>
-			<real>600666063.36946106</real>
+			<real>602578074.59083796</real>
 			<key>title</key>
 			<string>Building workspace ReduxCountClicks with scheme ReduxCountClicks and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>0C14A399-3F89-4F53-8357-573B17285C07</string>
+			<string>579ABE8A-DD27-42BA-8703-9EC2679EA7B5</string>
+		</dict>
+		<key>78E2A2FE-C304-4B4D-935B-7C5EE00E188A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>78E2A2FE-C304-4B4D-935B-7C5EE00E188A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ReduxCountClicks project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ReduxCountClicks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace ReduxCountClicks with scheme ReduxCountClicks and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>602582455.52838504</real>
+			<key>timeStoppedRecording</key>
+			<real>602582480.20964098</real>
+			<key>title</key>
+			<string>Building workspace ReduxCountClicks with scheme ReduxCountClicks and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>78E2A2FE-C304-4B4D-935B-7C5EE00E188A</string>
 		</dict>
 	</dict>
 </dict>
